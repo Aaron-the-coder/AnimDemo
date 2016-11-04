@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zx">
+        <item>资讯</item>
+        <item>热点</item>
+        <item>博客</item>
+        <item>推荐</item>
+    </string-array>
+    <string-array name="dt">
+        <item>最新动弹</item>
+        <item>热门动弹</item>
+        <item>我的动弹</item>
+    </string-array>
+</resources>

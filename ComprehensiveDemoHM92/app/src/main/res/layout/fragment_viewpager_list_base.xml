@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+    <com.itheima.comprehensivedemohm92.PagerSlidingTab
+        android:id="@+id/pts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/sliding_tab_strip_background"
+        app:dividerColor="#00000000"
+        app:indicatorColor="#40AA53"></com.itheima.comprehensivedemohm92.PagerSlidingTab>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>
